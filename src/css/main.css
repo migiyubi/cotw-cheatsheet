@@ -1,0 +1,65 @@
+body {
+  font-size: 0.9em;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #d2d2d2;
+  background-color: #1a1d21;
+}
+
+body > * {
+  margin: 12px;
+}
+
+a {
+  color: #1d98d1;
+}
+
+select {
+  font-size: 1.0em;
+  color: #d2d2d2;
+  background-color: #1a1d21;
+}
+
+#map-info {
+  display: flex;
+  align-items: flex-end;
+  font-size: 1.5em;
+}
+
+#map-image-link {
+  margin: 4px 40px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 6px 18px;
+  border-bottom: 1px solid #888888;
+}
+
+.animal-name {
+  width: 30%;
+}
+
+.animal-name-en {
+  font-size: 0.6em;
+}
+
+.animal-class {
+  width: 5%;
+  text-align: center;
+}
+
+.animal-caller {
+  width: 30%;
+}
+
+.animal-difficulty {
+  width: 20%;
+}
+
+.animal-score {
+  width: 15%;
+  text-align: right;
+}
