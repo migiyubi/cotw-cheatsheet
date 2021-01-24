@@ -30,7 +30,12 @@ select {
 }
 
 table {
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+thead td {
+  background-color: #2a2d31;
 }
 
 td {
@@ -62,4 +67,38 @@ td {
 .animal-score {
   width: 15%;
   text-align: right;
+}
+
+@media(max-width: 767px) {
+  body {
+    font-size: 0.7em;
+  }
+
+  table {
+    margin: 12px 4px;
+  }
+
+  .animal-name-en {
+    font-size: 0.5em;
+  }
+
+  td {
+    border-bottom: 1px solid #444444;
+  }
+
+  td:first-child {
+    width: 40%;
+    border-bottom: 1px solid #888888;
+  }
+
+  td:last-child {
+    width: 40%;
+    border-bottom: 1px solid #888888;
+  }
+
+  td:not(:first-child) {
+    display: block;
+    width: 90%;
+    text-align: right;
+  }
 }

@@ -122,11 +122,14 @@ class App {
         headeScore.textContent = 'Min Diamond Score';
         header.appendChild(headeScore);
 
+        const body = document.createElement('tbody');
+        root.appendChild(body);
+
         const animals = masterMap.animals.slice();
         animals.sort((a, b) => { return masterAnimal[a].class - masterAnimal[b].class; });
 
         for (const a of animals) {
-            this._addAnimalRow(root, masterAnimal[a], masterCaller[this._callerMap[a]], masterDifficulty[masterAnimal[a].max_difficulty]);
+            this._addAnimalRow(body, masterAnimal[a], masterCaller[this._callerMap[a]], masterDifficulty[masterAnimal[a].max_difficulty]);
         }
     }
 
