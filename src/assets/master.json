@@ -81,6 +81,33 @@
             "max_difficulty": 3,
             "min_diamond_score": 4.6
         },
+        "antelope-jackrabbit": {
+            "display_name": {
+                "en": "Antelope Jackrabbit",
+                "jp": "アンテロープジャックウサギ"
+            },
+            "class": 1,
+            "max_difficulty": 3,
+            "min_diamond_score": 6.3
+        },
+        "ringed-neck-pheasant": {
+            "display_name": {
+                "en": "Ringed-Neck Pheasant",
+                "jp": "コウライキジ"
+            },
+            "class": 1,
+            "max_difficulty": 3,
+            "min_diamond_score": 20.3
+        },
+        "rio-grande-turkey": {
+            "display_name": {
+                "en": "Rio Grande Turkey",
+                "jp": "リオ・グランデ・シチメンチョウ"
+            },
+            "class": 1,
+            "max_difficulty": 3,
+            "min_diamond_score": 4.6
+        },
         "red-fox": {
             "display_name": {
                 "en": "Red Fox",
@@ -179,6 +206,15 @@
             "class": 3,
             "max_difficulty": 5,
             "min_diamond_score": 208.7
+        },
+        "mexican-bobcat": {
+            "display_name": {
+                "en": "Mexican Bobcat",
+                "jp": "メキシカンボブキャット"
+            },
+            "class": 3,
+            "max_difficulty": 9,
+            "min_diamond_score": 27.6
         },
         "fallow-deer": {
             "display_name": {
@@ -323,6 +359,15 @@
             "class": 4,
             "max_difficulty": 5,
             "min_diamond_score": 198.7
+        },
+        "collared-peccary": {
+            "display_name": {
+                "en": "Collared Peccary",
+                "jp": "クビワペッカリー"
+            },
+            "class": 4,
+            "max_difficulty": 5,
+            "min_diamond_score": 144.2
         },
         "puma": {
             "display_name": {
@@ -548,7 +593,9 @@
                 "side-striped-jackal",
                 "lion",
                 "gray-wolf",
-                "iberian-wolf"
+                "iberian-wolf",
+                "mexican-bobcat",
+                "collared-peccary"
             ]
         },
         "antler-rattler": {
@@ -661,13 +708,14 @@
                 "axis-deer"
             ]
         },
-        "wile-turkey-mouth-caller": {
+        "wild-turkey-mouth-caller": {
             "display_name": {
                 "en": "Wild Turkey Mouth Caller",
                 "jp": "野生の七面鳥用呼び笛(マウス)"
             },
             "targets": [
-                "turkey"
+                "turkey",
+                "rio-grande-turkey"
             ]
         }
     },
@@ -825,6 +873,24 @@
                 "red-deer"
             ],
             "url_map": "https://steamuserimages-a.akamaihd.net/ugc/1655601151332808073/EF6DE01A5C8A318E380E45DF13C2CE6EC7776024/"
+        },
+        "rancho-del-arroyo": {
+            "display_name": {
+                "en": "Rancho del Arroyo",
+                "jp": "渓谷牧場"
+            },
+            "animals": [
+                "rio-grande-turkey",
+                "ringed-neck-pheasant",
+                "antelope-jackrabbit",
+                "coyote",
+                "mexican-bobcat",
+                "collared-peccary",
+                "bighorn-sheep",
+                "whitetail-deer",
+                "mule-deer"
+            ],
+            "url_map": "https://steamuserimages-a.akamaihd.net/ugc/1697277908219000174/7D431B4B646D5543353381A620FD72A1F8380F38/"
         }
     },
     "difficulty": {
