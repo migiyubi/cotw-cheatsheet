@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack serve --mode development",
+    "start": "webpack serve --mode development"
   },
   "author": "migiyubi",
   "license": "MIT",
