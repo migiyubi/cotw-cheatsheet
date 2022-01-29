@@ -1,6 +1,7 @@
 const path = require('path');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MinifyJSONWebpackPlugin = require('minify-json-webpack-plugin')
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const WorkBoxWebpackPlugin = require('workbox-webpack-plugin');
 
@@ -55,6 +56,7 @@ module.exports = {
     }),
     new WorkBoxWebpackPlugin.GenerateSW({
       inlineWorkboxRuntime: true
-    })
+    }),
+    new MinifyJSONWebpackPlugin()
   ]
 };

@@ -4245,6 +4245,13 @@ min-document@^2.19.0:
   dependencies:
     dom-walk "^0.1.0"
 
+minify-json-webpack-plugin@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/minify-json-webpack-plugin/-/minify-json-webpack-plugin-1.0.5.tgz#77f89da1767a498ac6f84fba3e4ad9631d0c459f"
+  integrity sha512-qgetwXHK6frvVfAzfW1Rsn3SgcCNoeHNL/QDwf44dQBdbR2mtAMV6CN/1LH8Yda23NurEdjJhzZiJ0iGrXaJwQ==
+  dependencies:
+    webpack-sources "^1.4.3"
+
 minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
