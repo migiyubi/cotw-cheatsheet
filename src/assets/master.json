@@ -108,6 +108,42 @@
             "max_difficulty": 3,
             "min_diamond_score": 4.6
         },
+        "bobwhite-quail": {
+            "display_name": {
+                "en": "Bobwhite Quail",
+                "jp": "コリンウズラ"
+            },
+            "class": 1,
+            "max_difficulty": 3,
+            "min_diamond_score": 260.5
+        },
+        "cottontail-rabbit": {
+            "display_name": {
+                "en": "Cottontail Rabbit",
+                "jp": "トウブワタオウサギ"
+            },
+            "class": 1,
+            "max_difficulty": 3,
+            "min_diamond_score": 1.9
+        },
+        "eastern-wild-turkey": {
+            "display_name": {
+                "en": "Eastern Wild Turkey",
+                "jp": "イースタン・ワイルド・ターキー"
+            },
+            "class": 1,
+            "max_difficulty": 3,
+            "min_diamond_score": 4.6
+        },
+        "common-raccoon": {
+            "display_name": {
+                "en": "Common Raccoon",
+                "jp": "アライグマ"
+            },
+            "class": 1,
+            "max_difficulty": 5,
+            "min_diamond_score": 12.0
+        },
         "red-fox": {
             "display_name": {
                 "en": "Red Fox",
@@ -143,6 +179,15 @@
             "class": 2,
             "max_difficulty": 3,
             "min_diamond_score": 249.0
+        },
+        "gray-fox": {
+            "display_name": {
+                "en": "Gray Fox",
+                "jp": "ハイイロギツネ"
+            },
+            "class": 2,
+            "max_difficulty": 9,
+            "min_diamond_score": 6.4
         },
         "roe-deer": {
             "display_name": {
@@ -369,6 +414,15 @@
             "max_difficulty": 5,
             "min_diamond_score": 144.2
         },
+        "wild-hog": {
+            "display_name": {
+                "en": "Wild Hog",
+                "jp": "イノシシ"
+            },
+            "class": 4,
+            "max_difficulty": 5,
+            "min_diamond_score": 144.2
+        },
         "puma": {
             "display_name": {
                 "en": "Puma",
@@ -445,6 +499,15 @@
             "display_name": {
                 "en": "Caribou",
                 "jp": "カリブー"
+            },
+            "class": 6,
+            "max_difficulty": 5,
+            "min_diamond_score": 430.2
+        },
+        "american-alligator": {
+            "display_name": {
+                "en": "American Alligator",
+                "jp": "アメリカアリゲーター"
             },
             "class": 6,
             "max_difficulty": 5,
@@ -595,7 +658,8 @@
                 "gray-wolf",
                 "iberian-wolf",
                 "mexican-bobcat",
-                "collared-peccary"
+                "collared-peccary",
+                "gray-fox"
             ]
         },
         "antler-rattler": {
@@ -620,7 +684,8 @@
             "targets": [
                 "wild-boar",
                 "warthog",
-                "feral-pig"
+                "feral-pig",
+                "wild-hog"
             ]
         },
         "elk-caller": {
@@ -715,7 +780,17 @@
             },
             "targets": [
                 "turkey",
-                "rio-grande-turkey"
+                "rio-grande-turkey",
+                "eastern-wild-turkey"
+            ]
+        },
+        "raccoon-squall-caller": {
+            "display_name": {
+                "en": "Raccoon \"Squall\" Caller",
+                "jp": "アライグマ用\"金切り声\"式呼び笛"
+            },
+            "targets": [
+                "common-raccoon"
             ]
         }
     },
@@ -890,6 +965,24 @@
                 "mule-deer"
             ],
             "url_map": "https://steamuserimages-a.akamaihd.net/ugc/1697277908219000174/7D431B4B646D5543353381A620FD72A1F8380F38/"
+        },
+        "mississippi-acres-preserve": {
+            "display_name": {
+                "en": "Mississippi Acres Preserve",
+                "jp": "ミシシッピ・エーカーズ保護区"
+            },
+            "animals": [
+                "bobwhite-quail",
+                "cottontail-rabbit",
+                "common-raccoon",
+                "eastern-wild-turkey",
+                "gray-fox",
+                "whitetail-deer",
+                "wild-hog",
+                "american-alligator",
+                "black-bear"
+            ],
+            "url_map": "https://steamuserimages-a.akamaihd.net/ugc/1824518791359775265/3A5E2AE75B1DAACB51B642D416555B7106C4B3D1/"
         }
     },
     "difficulty": {
